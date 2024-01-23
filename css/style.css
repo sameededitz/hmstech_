@@ -880,7 +880,17 @@ footer{
     opacity: 1;
     transform: translateX(0px);
 }
-
+@media (max-width:550px){
+    .price-3.reveal{
+        transform: translateX(0px);
+    }
+    .price-1.reveal{
+        transform: translateX(-0px);
+    }
+    .about-img.reveal{
+        transform: translateX(0px);
+    }
+}
 
 
 
